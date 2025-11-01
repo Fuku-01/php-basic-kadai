@@ -35,9 +35,9 @@
 
       //  クラス Animalを定義する
       class Animal{
-        public $name;
-        public $height;
-        public $weight;
+        private $name;
+        private $height;
+        private $weight;
 
         //  コンストラクタを定義する
         public function __construct(string $name,int $height,int $weight){
