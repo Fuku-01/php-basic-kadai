@@ -10,16 +10,16 @@
       <table>
         <tr>
           <td>社員名</td>
-          <td><input type="text" name="user_name"></td>
+          <td><input type="text" name="employee_name"></td>
         </tr>
         <tr>
           <td>年齢</td>
-          <td><input type="text" name="user_age"></td>
+          <td><input type="text" name="employee_age"></td>
         </tr>
         <tr>
           <td>所属部署</td>
           <td>
-            <select name="category">
+            <select name="department">
               <option value="開発部">開発部</option>
               <option value="営業部">営業部</option>
               <option value="人事部">人事部</option>
@@ -27,7 +27,7 @@
           </td>
         </tr>
       </table>
-      <input type="submit" onclick="location.href ='confirm.php';" value="送信">
+      <input type="submit" value="送信">
     </form>
   </body>
 </html>

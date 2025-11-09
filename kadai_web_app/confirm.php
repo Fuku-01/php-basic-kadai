@@ -1,8 +1,8 @@
 <?php
 // POSTリクエストからデータを取得する。
-$name = $_POST['user_name'];
-$age = $_POST['user_age'];
-$category = $_POST['category'];
+$employee_name = $_POST['employee_name'];
+$employee_age = $_POST['employee_age'];
+$department = $_POST['department'];
 ?>
 
 <!DOCTYPE html>
@@ -19,19 +19,19 @@ $category = $_POST['category'];
     <table border="1">
       <tr>
         <th>項目</th>
-        <th>入力項目</th>
+        <th>入力内容</th>
       </tr>
       <tr>
         <td>社員名</td>
-        <td><?php echo $name; ?></td>
+        <td><?php echo $employee_name; ?></td>
       </tr>
       <tr>
         <td>年齢</td>
-        <td><?php echo $age; ?></td>
+        <td><?php echo $employee_age; ?></td>
       </tr>
       <tr>
         <td>所属部署</td>
-        <td><?php echo $category ?></td>
+        <td><?php echo $department ?></td>
       </tr>
     </table>
     <p>
